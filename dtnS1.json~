@@ -1,0 +1,19 @@
+{
+	"id": "dtnS1",
+	"question": "Are all users experiencing this issue or just one / a couple",
+	"answers": [
+
+		{
+			"text": "All Users",
+			"target": "dtnS6"
+		},
+		{
+			"text": "Just 1 User",
+			"target": "dtnS7"
+		},
+		{
+			"text": "Just A Few Users",
+			"target": "dtnS7"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "dtn9",
+	"question": "What type of phone are they using?",
+	"answers": [
+
+		{
+			"text": "Voip Desk Phone",
+			"target": "anode5"
+		},
+		{
+			"text": "Soft Phone",
+			"target": "anode6"
+		},
+		{
+			"text": "Cell Phone",
+			"target": "anode7"
+		},
+		{
+			"text": "Land line",
+			"target": "anode8"
+		}
+	]
+}

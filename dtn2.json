@@ -1,0 +1,16 @@
+{
+	"id": "dtn2",
+	"question": "Are they at the same location as users that are not having the issue?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "dtn3"
+		},
+		{
+			"text": "No",
+			"target": "dtn4"
+		}
+		
+	]
+}

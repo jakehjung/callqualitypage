@@ -1,0 +1,7 @@
+{
+	"id": "anodeA7",
+	"title": "Change Codec to Solely G.711 to Resolve",
+	"description": "<p>Explain to the customer that the G.729 codec is known to cause audio delays when using the InsideSales.com platform. This is due to issues with compression and decompression of the G.729 codec while using the 2 tiered calling platform. Since the G.711 codec is not compressed it does not experience the same issue.</p>"
+	
+	
+}

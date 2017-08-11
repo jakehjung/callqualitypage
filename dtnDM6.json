@@ -1,0 +1,22 @@
+{
+	"id": "dtnDM6",
+	"question": "What Codec are they using for audio transcoding?",
+	"answers": [
+        {
+			"text": "G.711",
+			"target": "anodeA6"
+		},
+		{
+			"text": "G.729",
+			"target": "anodeA7"
+		},
+		{
+			"text": "Other",
+			"target": "anodeA7"
+		},
+		{
+			"text": "They Don't Know",
+			"target": "anodeA8"
+		}
+	]
+}

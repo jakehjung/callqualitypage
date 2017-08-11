@@ -1,0 +1,15 @@
+{
+	"id": "dtn5",
+	"question": "Is it intermittent?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "dtn3"
+		},
+		{
+			"text": "No it's consistent and happening now",
+			"target": "anode2"
+		}
+	]
+}

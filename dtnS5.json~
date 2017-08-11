@@ -1,0 +1,15 @@
+{
+	"id": "dtnS7",
+	"question": "Test using <b>YOUR</b> desk phone as the station phone. Still Static?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "anodeS3"
+		},
+		{
+			"text": "No",
+			"target": "dtnS1"
+		}
+	]
+}

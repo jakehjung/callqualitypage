@@ -1,0 +1,15 @@
+{
+	"id": "start1",
+	"question": "Clarify with the client if it is static or choppiness they are hearing",
+	"answers": [
+
+		{
+			"text": "Static",
+			"target": "dtnS1"
+		},
+		{
+			"text": "Choppiness",
+			"target": "anodeS2"
+		}
+	]
+}

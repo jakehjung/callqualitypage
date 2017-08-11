@@ -1,0 +1,19 @@
+{
+	"id": "start",
+	"question": "Are all users experiencing the issue?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "dtn4"
+		},
+		{
+			"text": "No 1 user",
+			"target": "dtn2"
+		},
+		{
+			"text": "No a few users",
+			"target": "dtn2"
+		}
+	]
+}

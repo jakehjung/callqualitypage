@@ -1,0 +1,18 @@
+{
+	"id": "start5",
+	"question": "Have they been recently using the - Report Call Quality Issue - button in regards to this specific issue? At least 3 reported in the last 48 hours.",
+	"answers": [
+		 {
+			"text": "Yes",
+			"target": "dtnDN1"
+		},
+		{
+			"text": "No",
+			"target": "anodeDN1"
+		},
+		{
+			"text": "Playbooks",
+			"target": "anodeDN3"
+		}
+	]
+}

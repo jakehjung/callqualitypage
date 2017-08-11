@@ -1,0 +1,22 @@
+{
+	"id": "dtnA6",
+	"question": "What Codec are they using for audio transcoding?",
+	"answers": [
+        {
+			"text": "G.711",
+			"target": "anodeS3"
+		},
+		{
+			"text": "G.729",
+			"target": "anodeS3"
+		},
+		{
+			"text": "Other",
+			"target": "anodeS3"
+		},
+		{
+			"text": "They Don't Know",
+			"target": "anodeS5"
+		}
+	]
+}

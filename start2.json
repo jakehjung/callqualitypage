@@ -1,0 +1,18 @@
+{
+	"id": "start2",
+	"question": "Clarify with the client if it is Audio Delay, static or choppiness they are hearing",
+	"answers": [
+		 {
+			"text": "Audio Delay",
+			"target": "dtnA1"
+		},
+		{
+			"text": "Static",
+			"target": "dtnS2"
+		},
+		{
+			"text": "Choppiness",
+			"target": "anodeS2"
+		}
+	]
+}

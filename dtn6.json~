@@ -1,0 +1,15 @@
+{
+	"id": "dtn6",
+	"question": "Test with <b>YOUR</b> desk phone set as their station phone. Still Choppy?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "dtn9"
+		},
+		{
+			"text": "No",
+			"target": "dtn12"
+		}
+	]
+}

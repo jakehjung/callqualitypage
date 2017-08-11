@@ -1,0 +1,15 @@
+{
+	"id": "dtn3",
+	"question": "Is it choppy when they test with another user's phone?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "dtn4"
+		},
+		{
+			"text": "No",
+			"target": "dtn9"
+		}
+	]
+}

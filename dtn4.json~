@@ -1,0 +1,23 @@
+{
+	"id": "dtn4",
+	"question": "What type of phone are they using?",
+	"answers": [
+
+		{
+			"text": "Voip Desk Phone",
+			"target": "dtn5"
+		},
+		{
+			"text": "Soft Phone",
+			"target": "dtn5"
+		},
+		{
+			"text": "Cell Phone",
+			"target": "dtn6"
+		},
+		{
+			"text": "Land line",
+			"target": "dtn6"
+		}
+	]
+}

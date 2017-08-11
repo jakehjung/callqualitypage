@@ -1,0 +1,15 @@
+{
+	"id": "dtnA5",
+	"question": "Does it only happen using InsideSales.com?",
+	"answers": [
+
+		{
+			"text": "Yes",
+			"target": "dtnA6"
+		},
+		{
+			"text": "No",
+			"target": "anodeA5"
+		}
+	]
+}
