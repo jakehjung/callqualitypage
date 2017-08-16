@@ -4,170 +4,138 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Sean Nieuwoudt" />
 	<meta name="robots" content="all" />
-	<title>Telephony Troubleshooting Guide</title>
+	<title>Malik's Telephony Troubleshooting Guide</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/jquery.popdown.css">
-
 	<style>
-		body, html{
-			background-color:#EEEEEE;
-			font-family: Georgia, Times, "Times New Roman", serif;
-			font-size:26px;
-			text-align:center;
+		section {
+			margin-bottom: 50px;
 		}
-
-		a{
-			color:#00A0C6;
+		#header {
+			padding-top: 20px;
 		}
-
-		a:hover{
-			color:#13819b;
+		#symptoms .row {
+			margin-right: 0px;
+			margin-left: 0px;
 		}
-
-		h1{
-			font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
-			font-size:22px;
-			color:#0b9f49;
-			padding-top:0px;
-			margin-top:0;
+		.symptom-cell {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-right: 0;
+			padding-left: 0;
+			transition: 0.7s;
 		}
-
-		.contain p{
-			display:block;
-			margin:0 auto;
-			max-width:720px;
-			color:#B3B3B1;
-			padding: 10px;
-			line-height: 1.4em;
-			padding-bottom:50px;
+		.symptom-cell a {
+			text-decoration: none;
+			font-weight: bold;
+			color: #fff;
+			font-size: 25px;
 		}
-
-		p a.btn{
-			display:inline-block;
-			border:4px solid #797676;
-			color:#797676;
-			text-decoration:none;
-			padding:10px;
-			margin-bottom: 20px;
-		  	-webkit-border-radius: 5px;
-		  	-moz-border-radius: 5px;
-		  	border-radius: 5px;
-		  	-moz-transition-duration: 0.2s;
-		  	-webkit-transition-duration: 0.2s;
-		  	-o-transition-duration: 0.2s;
-		  	transition-duration: 0.2s;
-		}
-
-		p a.btn:hover{
-			color:#2b9f0b;
-			border:4px solid #2b9f0b;
-		}
-
-		a.logo{
-			display:block;
-			text-indent:-9999px;
-			background:url(/img/wixel.png) no-repeat;
-			width:33px;
-			height:33px;
-			margin:50px auto;
-		}
-
-		div.share{
-			text-align:center;
-		}
-
-		.small-text{
-			font-size:13px;
-		}
-		@media only screen and (min-width: 480px){
-			h1{
-				font-size: 66px;
-			}
-			a.logo{
-				margin:100px auto;
-			}
+		.symptom-cell:hover {
+			opacity: 0.7;
+			transition: 0.7s;
 		}
 	</style>
 </head>
-<body class="demo-page">
+<body>
 
-<div id="is1">
-<p><img src="in.PNG"></p>
+<div class="container">
+	<nav class="navbar navbar-expand-sm navbar-light" style="background:#3AB676">
+		<a class="navbar-brand" href="#" style="width:50px;"><img src="https://www.insidesales.com/wp-content/uploads/2017/05/INSIDESALES_SQUARE-WHITE.svg?f4bf21&f4bf21" style="width:100%"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#forms" style="color:white"><b>Forms</b></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#tools" style="color:white"><b>Tools</b></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#links" style="color:white"><b>Links</b></a>
+				</li>
+			</ul>
+			<a class="navbar-brand" href="https://www.linkedin.com/in/malik-gore-b167843b/" style="margin-right:0;width:50px">
+				<img src="img/malik.jpg" style="width:100%;">
+			</a>
+		</div>
+	</nav>
+	<section id="header">
+		<h1>Malik's Telephony Troubleshooting Guide</h1>
+		<p class="text-danger">*Always remember to remind customers to use the report call quality button!</p>
+	</section>
+	
+	<section id="symptoms">
+		<h3>Choose symptoms below:</h3>
+		<div class="row text-center">
+			<div class="col symptom-cell" style="background:#9b59b6"><a href="/CallChoppy/index.html" class="popdown">Call Choppy</a></div>
+			<div class="col symptom-cell" style="background:#27ae60"><a href="/CallStatic/index.html" class="popdown">Call Static</a></div>
+			<div class="col symptom-cell" style="background:#3498db"><a href="/AudioDelay/index.html" class="popdown">Audio Delay</a></div>
+		</div>
+		<div class="row text-center">
+			<div class="col symptom-cell" style="background:#f1c40f"><a href="/DroppedMidCall/index.html" class="popdown">Dropped Mid Call</a></div>
+			<div class="col symptom-cell" style="background:#e67e22"><a href="/DidNotConnect/index.html" class="popdown">Did Not Connect</a></div>
+			<div class="col symptom-cell" style="background:#e74c3c"><a href="/ClickDelay/index.html" class="popdown">SIP RTP Video</a></div>
+		</div>
+	</section>
+
+	<section id="forms">
+		<h3>Forms</h3>
+		<ul class="list-group">
+			<li class="list-group-item"><a href="/TEAR-SHEET.pdf" target="_blank">Tear Sheet</a></li>
+			<li class="list-group-item"><a href="/Call-Quality-Process.pdf" target="_blank">Call Quality Process</a></li>
+		</ul>
+	</section>
+
+	<section id="tools">
+		<h3>Tools</h3>
+		<ul class="list-group">
+			<li class="list-group-item"><a href="https://callquality.insidesales.com/" target="_blank">Call Quality Tool</a></li>
+			<li class="list-group-item"><a href="https://atom.insidesales.com/welcome" target="_blank">Atom</a></li>
+			<li class="list-group-item"><a href="https://cpr.dev.insidesales.com/" target="_blank">CPR</a></li>
+		</ul>
+	</section>
+
+	<section id="links">
+		<h3>Helpful Links</h3>
+		<div class="row">
+			<div class="col">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="https://www.voip-info.org/wiki/view/5+Curable+Causes+of+Poor+VoIP+Call+Quality" target="_blank">Call Quality Causes</a></li>
+					<li class="list-group-item"><a href="https://www.voipmechanic.com/qos-for-voip.htm" target="_blank">QOS Explained</a></li>
+					<li class="list-group-item"><a href="https://www.voipmechanic.com/how-to-troubleshoot-phone-static.htm" target="_blank">Sources of VOIP Static</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/30141-symptoms.html" target="_blank">Cisco Explains Most Call Quality</a></li>
+					<li class="list-group-item"><a href="http://www.voipvoip.com/customer-care/troubleshooting.html" target="_blank">VOIP Troubleshooting</a></li>
+					<li class="list-group-item"><a href="http://community.insidesales.com/assets/files/InsideSales_Salesforce_Platform_Documentation-6.21.3.pdf" target="_blank">ISDC Platform Documentation</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="https://supportforums.cisco.com/document/113271/understanding-sip-traces" target="_blank">Understanding SIP Traces</a></li>
+					<li class="list-group-item"><a href="https://supportforums.cisco.com/video/11927911/how-use-wireshark-voip-troubleshooting" target="_blank">Wireshark - VOIP Troubleshooting</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </div>
 
-	<h1>Telephony Troubleshooting Guide</h1>
-
-<p><span style="background-color: #FF0000">**Always Remember To Remind Customers To Use The Report Call Quality Button**</span></p>
-	<section class="contain">
-		<p>
-			
-		</p>
-
-		<p>
-			<a href="/CallChoppy/index.html" class="popdown btn" title="Call Choppy">Call Choppy</a>
-			<a href="/CallStatic/index.html" class="popdown btn" title="Call Static">Call Static</a>
-			<a href="/AudioDelay/index.html" class="popdown btn" title="Audio Delay">Audio Delay</a>
-		</p>
-		<p>
-			<a href="/DroppedMidCall/index.html" class="popdown btn" title="Dropped Mid Call">Dropped Mid Call</a>
-			<a href="/DidNotConnect/index.html" class="popdown btn" title="Did Not Connect">Did Not Connect</a>
-		<a href="/ClickDelay/index.html" class="popdown btn" title="Click Delay">SIP RTP Video</a></p>
-
-
-		<center><h1>Forms</h1>
-		<table style="width:75%">
- 
-<tr>
-    <td><a href="/TEAR-SHEET.pdf" target="_blank">Tear Sheet</a></td>
-    <td><a href="/Call-Quality-Process.pdf" target="_blank">Call Quality Process</a></td>
-  </tr>
-</table></center>
-
-
-		<center><h1>Tools</h1>
-		<table style="width:75%">
- 
-<tr>
-    <td><a href="https://callquality.insidesales.com/" target="_blank">Call Quality Tool</a></td>
-    <td><a href="https://atom.insidesales.com/welcome" target="_blank">Atom</a></td>
-    <td><a href="https://cpr.dev.insidesales.com/" target="_blank">CPR</a></td>
-  </tr>
-</table></center>
-	
-	<center><h1>Helpful Links</h1>
-		<table style="width:75%">
- 
-<tr>
-    <td><a href="https://www.voip-info.org/wiki/view/5+Curable+Causes+of+Poor+VoIP+Call+Quality" target="_blank">Call Quality Causes</a></td>
-    <td><a href="https://www.voipmechanic.com/qos-for-voip.htm" target="_blank">QOS Explained</a></td>
-    <td><a href="https://www.voipmechanic.com/how-to-troubleshoot-phone-static.htm" target="_blank">Sources of VOIP Static</a></td>
-  </tr>
-<tr>
-     <td><a href="https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/30141-symptoms.html" target="_blank">Cisco Explains Most Call Quality</a></td>
-    <td><a href="http://www.voipvoip.com/customer-care/troubleshooting.html" target="_blank">VOIP Troubleshooting</a></td>
-    <td><a href="http://community.insidesales.com/assets/files/InsideSales_Salesforce_Platform_Documentation-6.21.3.pdf" target="_blank">ISDC Platform Documentation</a></td>
-  </tr>
-  <tr>
-     <td><a href="https://supportforums.cisco.com/document/113271/understanding-sip-traces" target="_blank">Understanding SIP Traces</a></td>
-    <td><a href="https://supportforums.cisco.com/video/11927911/how-use-wireshark-voip-troubleshooting" target="_blank">Wireshark - VOIP Troubleshooting</a></td>
-  </tr>
-</table></center>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</section>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script type="text/javascript" src="/lib/jquery.popdown.js?v=1" /></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.popdown').popdown();
 		});
 	</script>
-
-
 
 </body>
 </html>
